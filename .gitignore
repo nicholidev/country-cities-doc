@@ -1,0 +1,32 @@
+.DS_Store
+
+node_modules/
+
+lib/core/metadata.js
+lib/core/MetadataBlog.js
+translated_docs
+build/
+yarn.lock
+i18n/*
+.docusaurus/*
+
+artifacts/
+cache/
+typechain/
+
+.env
+
+# Debugging logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Using yarn, so ignore npm lock
+package-lock.json
+
+# For analytics testing
+*.tgz
+
+# VSCode
+.vscode/
+.idea/
