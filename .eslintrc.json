@@ -52,7 +52,6 @@
             {
                 "argsIgnorePattern": "_",
                 "varsIgnorePattern": "_",
-                "endOfLine": "auto",
                 "caughtErrorsIgnorePattern": "_"
             }
         ]

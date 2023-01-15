@@ -18,11 +18,10 @@ If you are new to using [npm](https://www.npmjs.com/), we recommend you start wi
 
 You can then setup the [country-cities](https://www.npmjs.com/package/country-cities) and execute the [install](/v1/installation).
 
-## Using in ES6
+## Integrating in ES6
 
-If you are using ES6 you can read here to use this library.
+If you are using ES6 you can read [here](/v1/es6/overview) to use this library.
 
-## Using in mdx
+## Integrating in AMD Module usage
 
-- [**V3 Core**](https://github.com/Uniswap/v3-core)
-- [**V3 Periphery**](https://github.com/Uniswap/v3-periphery)
+If you are using Amd you can read [here](/v1/amd/overview) to use this library.

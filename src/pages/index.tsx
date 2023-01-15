@@ -123,12 +123,12 @@ const CenterCard = styled(Card)`
   }
 
   p {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 `
 
 const ShadowCard = styled(Card)`
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.05);
   background-color: #ffffff10;
   backdrop-filter: blur(10px);
   min-height: 200px;
@@ -203,12 +203,6 @@ const StyledTitleImage = styled(StyledImage)`
   position: absolute;
   opacity: 0.2;
   mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent);
-`
-
-const HideMedium = styled.div`
-  @media (max-width: 960px) {
-    display: none;
-  }
 `
 
 const StyledIcon = styled.div`
@@ -345,7 +339,7 @@ export default function Home() {
               gap: '24px',
             }}
           >
-            <img src={AUTHOR} width={'120px'} />
+            <img src={AUTHOR} width={'120px'}  alt="Nicholi Jin"/>
             <div>
               <h2 style={{ marginBottom: '0.5rem' }}>About the Author</h2>
               <p style={{ margin: '0rem' }}>

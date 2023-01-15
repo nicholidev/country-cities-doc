@@ -66,20 +66,36 @@ module.exports = {
             },
             {
               label: 'Es6',
-              href: '/v1/installation',
+              href: '/v1/es6/overview',
             },
             {
               label: 'Amd',
-              href: '/v1/installation',
+              href: '/v1/amd/overview',
+            },
+            {
+              label: 'Quick Guide',
+              href: '/v1/quick',
             },
           ],
         },
         {
-          title: 'Github',
+          title: 'Extra Links',
           items: [
             {
-              label: 'uniswap-v3-core',
-              href: 'https://github.com/Uniswap/uniswap-v3-core',
+              label: 'Github',
+              href: 'https://github.com/nicholidev/country-cities',
+            },
+            {
+              label: 'Npm',
+              href: 'https://www.npmjs.com/package/country-cities',
+            },
+            {
+              label: 'Yarn',
+              href: 'https://yarnpkg.com/package/country-cities',
+            },
+            {
+              label: 'Report Issue',
+              href: 'https://github.com/nicholidev/country-cities/issues',
             },
           ],
         },
@@ -87,8 +103,20 @@ module.exports = {
           title: 'Author',
           items: [
             {
-              label: 'Home',
-              href: 'https://uniswap.org/',
+              label: 'Personal Website',
+              href: 'https://nicholijin.com/',
+            },
+            {
+              label: 'Contact',
+              href: 'https://nicholijin.com/contact',
+            },
+            {
+              label: 'Codingame',
+              href: 'https://www.codingame.com/profile/2d2f02e5a43320543afb8352edcaf6cd3601874',
+            },
+            {
+              label: 'Linkedin',
+              href: 'https://www.linkedin.com/in/nicholi-jin-093388233/',
             },
           ],
         },
@@ -96,8 +124,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Governance',
-              href: 'https://gov.uniswap.org/',
+              label: 'Discord',
+              href: 'https://discord.gg/Pr3GZP8238',
+            },
+            {
+              label: 'Skype',
+              href: 'https://join.skype.com/invite/hwp9PMp0W8mA',
             },
           ],
         },
